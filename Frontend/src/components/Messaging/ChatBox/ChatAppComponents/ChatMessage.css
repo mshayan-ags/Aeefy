@@ -1,0 +1,37 @@
+.message-container {
+	max-width: 100%;
+	word-wrap: break-word;
+	align-items: flex-end;
+	display: flex;
+	flex-direction: column;
+	font-size: 16px;
+}
+
+.message-container-padding-left {
+	padding-right: 40px;
+	padding-left: 10px;
+}
+.margin-0 {
+	margin: 0;
+}
+.message-container-padding-right {
+	padding-left: 40px;
+}
+
+.message-avatar {
+	margin-bottom: 16px;
+}
+.time-on-hover {
+	margin-bottom: -15px !important;
+	visibility: hidden;
+}
+.time-trigger:hover + .time-on-hover {
+	visibility: visible;
+}
+.chat-mine {
+	background-color: black !important;
+}
+.chat-mine-margin {
+	/* margin: 0px ​30px 0px 11px; */
+	margin: 0px 30px 0px 11px;
+}

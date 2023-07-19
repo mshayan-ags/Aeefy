@@ -1,0 +1,9 @@
+.chat-messages-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden !important;
+}
+.chat-messages-container > div {
+    padding: 24px 0 0;
+}
